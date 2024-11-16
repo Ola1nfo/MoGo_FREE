@@ -1,0 +1,29 @@
+.block3 {
+    margin-top: 50px;
+    padding-top: 10px;
+    background: rgba(255, 255, 255, 0.6) url(../img/White.png);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+}
+.img-container{
+    margin-top: -25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 590px;
+    overflow: visible;
+}
+.img-container img{
+    position: absolute;
+    max-width: 100%;
+}
+.block3 .back{
+    z-index: 1;
+}
+.block3 .front{
+    z-index: 2;
+    transform: translate(120%, 30%);
+}
