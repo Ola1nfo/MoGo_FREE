@@ -1,5 +1,6 @@
 @import './block1.css';
 @import './blue-line.css';
+@import './block2.css';
 
 .container-fluid{
     box-sizing: border-box;

@@ -1,0 +1,83 @@
+.block2 h3{
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+    text-align: center;
+    margin-top: 80px;
+}
+.block2 h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.block2 hr{
+    width: 70px;
+    height: 4px;
+    background-color: #f38181;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 50px;
+}
+.block2 .line1, .line2{
+    display: flex;
+    justify-content: center;
+}
+.block2 .Photography, .Web_Design, .Creativity, .seo, .Css, .digital{
+    height: 150px;
+}
+.block2 .Photography .Photography-img, 
+.Web_Design .Web_Design-img,
+.Creativity .Creativity-img,
+.seo .seo-img,
+.Css .Css-img,
+.digital .digital-img{
+    float: left;
+    width: 60px;
+    height: 150px;
+}
+.block2 .Photography .Photography-img img,
+.Web_Design .Web_Design-img img,
+.Creativity .Creativity-img img,
+.seo .seo-img img,
+.Css .Css-img img,
+.digital .digital-img img{
+    width: 35px;
+    height: 33px;
+}
+.block2 .Photography-text h4,
+.Web_Design-text h4,
+.Creativity-text h4,
+.seo-text h4,
+.Css-text h4,
+.digital-text h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-top: 0px;
+}
+.block2 .Photography-text p,
+.Web_Design-text p,
+.Creativity-text p,
+.seo-text p,
+.Css-text p,
+.digital-text p{
+    width: 290px;
+    height: 81px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.block2 .new{
+    width: 100%;
+    height: 3px;
+    background-color: #e5e5e5;
+}
+
