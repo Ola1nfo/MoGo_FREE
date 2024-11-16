@@ -40,7 +40,7 @@
     font-weight: 400;
     margin-right: 30px;
 }
-.container .activi{
+.container nav .activi{
     color: #fce38a;
     border-bottom: 2px solid #fce38a;
     padding-bottom: 2px;
@@ -98,16 +98,41 @@ button{
     background-color: rgba(0,0,0,0);
     border: 3px solid #ffffff;
 }
-.button{
+header .button{
     text-align: center;
 }
-tr, th{
-    border-top: 2px solid #ffffff;
+header tr, th{
+    border-top: 3px solid #ffffff;
     border-collapse: separate;
     width: 960px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: left;
+    padding-top: 15px;
+    opacity: 0.8;
 }
-table{
+header table{
     border: none;
     margin-top: 50px;
     border-spacing: 20px;
+}
+header table span{
+    font-weight: normal;
+    font-size: 18px;
+}
+header table .activi {
+    opacity: 1;
+    border-top: 3px solid #ffffff; 
+    position: relative;
+}
+
+header table .activi .line {
+    position: absolute;
+    top: -3px;
+    width: 70px;
+    height: 3px;
+    background-color: #f38181;
 }
