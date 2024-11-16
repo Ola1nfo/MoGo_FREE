@@ -1,0 +1,28 @@
+.blue-line{
+    height: 200px;
+    background-color: #95e1d3;
+}
+.blue-line-table, .blue-line-table tr, .blue-line-table td{
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    border-collapse: collapse;
+    width: 960px;
+    height: 200px;
+    text-align: center;
+}
+.blue-line-table td .blue-line-span{
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.blue-line-table td{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
