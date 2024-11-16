@@ -107,6 +107,7 @@
     transition: opacity 0.3s ease;
     margin-top: 20px;
     width: 200px;
+    text-align: center;
 }
 .img-block .overlay1:hover .icon1{
     width: 35px;
