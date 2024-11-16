@@ -2,6 +2,7 @@
 @import './blue-line.css';
 @import './block2.css';
 @import './block3.css';
+@import './block4.css';
 
 .container-fluid{
     box-sizing: border-box;
@@ -37,6 +38,16 @@ hr{
     box-shadow: none;
     border: none;
     margin-bottom: 50px;
+}
+.p-main{
+    width: 960px;
+    height: 130px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
 }
 .gradient{
     position: relative;
@@ -87,18 +98,18 @@ hr{
     display: inline-block;
     position: absolute;
 }
-.head-text{
+.container .head-text{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.head-text1{
+.container .head-text .head-text1{
     font-size: 72px;
     color: #ffffff;
     font-weight: 400;
     font-family: "Kaushan Script";
 }
-.head-text2{
+.container .head-text .head-text2{
     font-size: 150px;
     line-height: 140px;
     text-transform: uppercase;
