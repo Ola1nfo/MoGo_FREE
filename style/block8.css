@@ -1,0 +1,87 @@
+.block8 .blog-photo{
+    display: flex;
+    justify-content: center;
+}
+.block8 .blog-photo .blog-photo1{
+    margin: 20px;
+}
+.block8 .blog-photo .blog-photo1 .photo{
+    position: relative;
+}
+.photo .fon{
+    width: 60px;
+    height: 70px;
+    background-color: #95e1d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+    z-index: 1; 
+}
+.photo .fon h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0;
+}
+.photo .fon p{
+    font-size: 15px;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 0;
+}
+.blog-photo1 h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.blog-photo1 p{
+    width: 380px;
+    height: 130px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.blog-photo1 .hr-blog{
+    width: 100%;
+    height: 2px;
+    background-color: #e5e5e5;
+    margin-top: -80px;
+    margin-bottom: 20px;
+}
+.blog-photo1 .eyes-coment{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100px;
+}
+.blog-photo1 .eyes img{
+    float: left;
+    margin-right: 5px;
+}
+.blog-photo1 .eyes p{
+    margin-top: -4px;
+}
+.blog-photo1 .coment{
+    margin-left: -310px;
+}
+.blog-photo1 .coment img{
+    float: left;
+    margin-right: 5px;
+}
+.blog-photo1 .coment p{
+    margin-top: -4px;
+}

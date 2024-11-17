@@ -8,6 +8,8 @@
 @import './grey-line2.css';
 @import './block6.css';
 @import './line.css';
+@import './block7.css';
+@import './block8.css';
 
 .container-fluid{
     box-sizing: border-box;
