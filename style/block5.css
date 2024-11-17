@@ -58,6 +58,8 @@
     height: 390px;
     background: 
         linear-gradient(0deg, #fbe389 0%, rgba(244, 139, 130, 0.6) 100%), url(../img/mee1.png);
+    background-size: cover; 
+    background-position: center;
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 2;
@@ -71,6 +73,8 @@
     height: 390px;
     background: 
         linear-gradient(0deg, #fbe389 0%, rgba(244, 139, 130, 0.6) 100%), url(../img/mee2.png);
+    background-size: cover; 
+    background-position: center;
     opacity: 0;
     transition: opacity 0.3s ease;
     cursor: pointer;
@@ -83,6 +87,8 @@
     height: 390px;
     background: 
         linear-gradient(0deg, #fbe389 0%, rgba(244, 139, 130, 0.6) 100%), url(../img/mee3.png);
+    background-size: cover; 
+    background-position: center;
     opacity: 0;
     transition: opacity 0.3s ease;
     cursor: pointer;
