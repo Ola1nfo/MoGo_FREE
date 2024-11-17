@@ -1,0 +1,53 @@
+.grey-line{
+    margin-top: 70px;
+    background-color: #f8f8f8;
+    height: 250px;
+    padding-top: 30px;
+}
+.grey-line .arrow{
+    width: 30px;
+    height: 30px;
+}
+.grey-line .first{
+    margin-top: 90px;
+    margin-left: 0px;
+}
+.grey-line .second{
+    margin-left: 600px;
+    margin-top: 90px;
+}
+.grey-line img{
+    float: left;
+    margin: 20px 10px;
+}
+.grey-line .text{
+    width: 100px;
+    position: relative;
+    float: left;
+}
+.grey-line .hr-grey{
+    width: 70px;
+    height: 4px;
+    background-color: #f38181;
+    float: left;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+.grey-line p{
+    width: 770px;
+    height: 147px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto";
+}
+.grey-line .name{
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+    margin-top: -50px;
+    margin-left: 90px;
+}
