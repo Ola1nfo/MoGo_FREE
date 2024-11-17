@@ -10,6 +10,7 @@
 @import './line.css';
 @import './block7.css';
 @import './block8.css';
+@import './map.css';
 
 .container-fluid{
     box-sizing: border-box;
