@@ -4,6 +4,8 @@
 @import './block3.css';
 @import './block4.css';
 @import './grey-line.css';
+@import './block5.css';
+@import './grey-line2.css';
 
 .container-fluid{
     box-sizing: border-box;

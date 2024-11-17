@@ -1,0 +1,115 @@
+.block5{
+    clear: both;
+}
+.block5 .img-block{
+    display: flex;
+    justify-content: space-between;
+}
+.block5 .img-block img {
+    width: 300px;
+    height: 390px;
+    margin-bottom: -20px;
+}
+.block5 .img-block .pidpus{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.block5 .img-block h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.block5 .img-block p{
+    font-size: 10px;
+    text-transform: capitalize;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto";
+    margin-top: -30px;
+}
+.block5 .img-block .overlay1 .icons,
+.block5 .img-block .overlay2 .icons,
+.block5 .img-block .overlay3 .icons {
+    display: flex;
+    align-items: center;
+    gap: 0px;  
+}
+.block5 .img-block .overlay1 .icons img,
+.block5 .img-block .overlay2 .icons img,
+.block5 .img-block .overlay3 .icons img{
+    border-left: 1px solid #f38181;
+    height: 36px;
+}
+.block5 .img-block .overlay1 .icons .main,
+.block5 .img-block .overlay2 .icons .main,
+.block5 .img-block .overlay3 .icons .main{
+    background-color: #f38181;
+}
+.block5 .img-block .overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 390px;
+    background: 
+        linear-gradient(0deg, #fbe389 0%, rgba(244, 139, 130, 0.6) 100%), url(../img/mee1.png);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+    cursor: pointer;
+}
+.block5 .img-block .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 390px;
+    background: 
+        linear-gradient(0deg, #fbe389 0%, rgba(244, 139, 130, 0.6) 100%), url(../img/mee2.png);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+.block5 .img-block .overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 390px;
+    background: 
+        linear-gradient(0deg, #fbe389 0%, rgba(244, 139, 130, 0.6) 100%), url(../img/mee3.png);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+.block5 .img-block .overlay1 .icon1,
+.block5 .img-block .overlay2 .icon2,
+.block5 .img-block .overlay3 .icon3{
+    width: 36px;
+    height: 36px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin-top: 50px;
+    background-color: #fce38a;
+}
+.block5 .img-block .overlay1:hover .icon1,
+.block5 .img-block .overlay2:hover .icon2,
+.block5 .img-block .overlay3:hover .icon3{
+    opacity: 1;
+}
+.block5 .img-block .img1:hover img,
+.block5 .img-block .img2:hover img,
+.block5 .img-block .img3:hover img {
+    opacity: 0;
+}
+.block5 .img-block .img1:hover .overlay1,
+.block5 .img-block .img2:hover .overlay2,
+.block5 .img-block .img3:hover .overlay3 {
+    opacity: 0.9;
+    box-shadow: 6px 6px 0px #95e1d3;
+}
