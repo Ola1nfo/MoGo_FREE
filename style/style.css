@@ -12,6 +12,7 @@
 @import './block8.css';
 @import './map.css';
 @import './last-block.css';
+@import './footer.css';
 
 .container-fluid{
     box-sizing: border-box;
