@@ -25,6 +25,11 @@
     position: relative;
     float: left;
 }
+.text .p-line{
+    margin-top: 30px;
+    width: 690px;
+    margin-left: 10px;
+}
 .grey-line .hr-grey{
     width: 70px;
     height: 4px;
@@ -32,6 +37,7 @@
     float: left;
     margin-top: -30px;
     margin-right: 20px;
+    margin-left: 10px;
 }
 .grey-line p{
     width: 770px;
